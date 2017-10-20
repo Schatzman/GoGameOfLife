@@ -7,7 +7,7 @@
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 This version in Go by DSM by strict TDD, October 2017. This hasn't been tested on Windows
-and this version will crash because of the `clear` command in the clearScreen function. Change that to `cls`
+and this version will certainly crash because of the `clear` command in the `clearScreen` function. Change that to `cls`
 for Windows. 
 
 ## To Build
