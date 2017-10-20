@@ -23,5 +23,5 @@ for Windows.
 3. `go install GameOfLife`
 4. `GameOfLife` (or `GameOfLife.exe` on Windows)
 ### OR, if you've done the above and are on linux or OSX
-1. `./install.sh` from the GoGameOfLife directory (may require a `sudo chmod +x install.sh`)
+1. `./install.sh` from the GoGameOfLife directory (may require a `sudo chmod +x install.sh` first)
 2. `GameOfLife`
