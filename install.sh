@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ -d $GOPATH ]; then
-    cp -r GameOfLife $GOPATH/src/
+if [ -d $GOSRCPATH ]; then
+    cp -r GameOfLife $GOSRCPATH/src/
 else
-    echo "Please set "'$GOPATH'" - https://github.com/golang/go/wiki/Setting-GOPATH"
+    echo "Please set "'$GOSRCPATH' should be `$GOPATH/src`" - https://github.com/golang/go/wiki/Setting-GOPATH"
 fi
 
 go install GameOfLife
